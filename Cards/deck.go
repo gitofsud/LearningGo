@@ -14,7 +14,7 @@ type deck []string
 func newDeck() deck {
 	cards := deck{}
 
-	cardSuits := []string{"Spades", "Diamonds", "Hearts"}
+	cardSuits := []string{"Spades", "Diamonds", "Hearts", "Club"}
 	cardValues := []string{"Ace", "Two", "Three", "Four"}
 
 	for _, suit := range cardSuits {
